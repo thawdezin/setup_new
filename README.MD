@@ -62,3 +62,16 @@ To install CocoaPods on an M1 Mac, follow these steps:
 
 This setup should work for installing CocoaPods on an M1 Mac!
 
+You should run both of these commands in your terminal to add Homebrew to your `PATH`:
+
+1. **First command**: This adds Homebrew to your `.zprofile`, ensuring that it's added to your `PATH` every time you start a terminal session.
+   ```bash
+   (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/thawdezin/.zprofile
+   ```
+
+2. **Second command**: This applies the change immediately without needing to restart your terminal.
+   ```bash
+   eval "$(/opt/homebrew/bin/brew shellenv)"
+   ```
+
+After running these, Homebrew will be ready to use in your terminal.
