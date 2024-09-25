@@ -55,6 +55,8 @@ After running these, Homebrew will be ready to use in your terminal.
    sudo gem install cocoapods
    ```
 
+pod မရသေးရင် ```gem environment``` ရိုက်ပြီး - GEM PATHS: အောက်က path ကို ~/.zshrc ထဲထည့်
+
 ### 5. **Set Up CocoaPods**
    After installation, set up the CocoaPods master repository:
    ```bash
