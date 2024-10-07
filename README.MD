@@ -87,3 +87,15 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 ```
 
 .zshrc မှာ plugins=(git zsh-autosuggestions) ဆိုပြီး ပြင် ``` source ~/.zshrc ``` ရပြီ
+
+
+### Copyable Markdown
+
+```bash
+##
+<tab><tab>code/text here
+```
+
+###
+
+
