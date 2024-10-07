@@ -79,3 +79,9 @@ pod မရသေးရင် ```gem environment``` ရိုက်ပြီး -
 
 This setup should work for installing CocoaPods on an M1 Mac!
 
+
+### Auto-Suggest
+
+``` git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions ```
+
+.zshrc မှာ plugins=(git zsh-autosuggestions) ဆိုပြီး ပြင် ``` source ~/.zshrc ``` ရပြီ
