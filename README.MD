@@ -92,8 +92,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 ### Copyable Markdown
 
 ```bash
-##
-<tab><tab>code/text here
+<pre>```bash ရေးပြီး ``` ပိတ် </pre>
 ```
 
 ###
